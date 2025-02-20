@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="title-bar">
+        <h1>ROCK-PAPER-SCISSORS</h1>
+    </div>
+    <div class="game-bar">
+        <div class="game-symbols">
+            <button class="rock-button" onclick="play('Rock')">
+                <i class="fa-regular fa-hand-back-fist symbols ro"></i>
+            </button>
+            <button class="paper-button" onclick="play('Paper')">
+                <i class="fa-regular fa-hand symbols ha"></i>
+            </button>
+            <button class="scissors-button" onclick="play('Scissors')">
+                <i class="fa-regular fa-hand-scissors symbols sc"></i>
+              </button>
+        </div>
+    </div>
+    <div class="game-info">
+        <div class="result">
+            <h2>WIN<p id="winCount"></p></h2>
+            <h2>LOSE<p id="loseCount"></p></h2>
+            <h2>DRAW<p id="drawCount"></p></h2>
+        </div>
+    </div>
+    <div class="choice-container">
+        <div class="choice">
+            <p >MY CHOICE:<p id="mychoice"></p></p>
+            <p >OPPONENT CHOICE:<p id="opponentchoice"></p></p>
+        </div>
+    </div>
+    <div class="game-msg">
+        <div class="msg">
+            LET'S START THE GAME
+        </div>
+    </div>
+    <div class="restart">
+        <div class="restart-button">
+            Restart
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
