@@ -12,3 +12,6 @@ I made this project as part of my learning journey and got inspiration from my s
 - How to use **Arrays** in JavaScript.
 - How to generate random choices using `Math.floor()` and `Math.random()`.
 - Basic DOM manipulation to update the game UI.
+
+##to experience the code
+-Go to https://namitkumarkrrish.github.io/ROCK_PAPER_SCISSOR_GAME/.
