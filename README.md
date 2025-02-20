@@ -12,6 +12,3 @@ I made this project as part of my learning journey and got inspiration from my s
 - How to use **Arrays** in JavaScript.
 - How to generate random choices using `Math.floor()` and `Math.random()`.
 - Basic DOM manipulation to update the game UI.
-
-## How to Run
-1. Clone the repository:
